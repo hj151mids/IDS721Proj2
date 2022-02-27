@@ -16,9 +16,9 @@ def is_prime(num:int):
                 flag = True
                 break
     if flag:
-        return {"Prime Number": flag}
+        return {"Prime Number": False}
     else:
-        return {"Prime Number": flag}
+        return {"Prime Number": True}
 
 if __name__ == '__main__':
     uvicorn.run(app, port=8080, host='0.0.0.0')
