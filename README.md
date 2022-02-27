@@ -1,7 +1,7 @@
 # IDS721Proj2 Kubernetes Based Continuous Delivery
 A simple webapp to test whether a number is a prime number is first built in the Cloud9 environment.  
 Then to containerize it, I built the docker image and pushed to the ECR repository for public access.  
-The image url is : public.ecr.aws/k2l3c8y7/ids721proj2demo4:latest.  
+The image url is : public.ecr.aws/k2l3c8y7/ids721proj2demo4:latest  
 Anyone can run docker pull in their AWS CLI to run this project.  
 ![image](https://user-images.githubusercontent.com/90075179/155903386-b89f5a7a-959a-4f88-bb62-441ec6dc30d4.png)
 For the continuous integration of the project, I used Github Actions to continuously test each git push.  
